@@ -4,7 +4,14 @@
   "description": "",
   "main": "navbar.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+        "lint": "eslint ./",
+        "lint-fix": "eslint --fix ./",
+        "format": "prettier --write .",
+        "watch": "tailwindcss -i output.css --watch",
+        "build-css": "tailwindcss -i ./src/app.css -o output.css -m",
+        "build-js": "esbuild ./src/app.js --outfile=./dist/output.js --sourcemap --bundle --minify"
   },
   "repository": {
     "type": "git",
@@ -16,4 +23,6 @@
     "url": "https://github.com/zenay910/zenay910.github.io/issues"
   },
   "homepage": "https://github.com/zenay910/zenay910.github.io#readme"
+  
 }
+
