@@ -1,0 +1,19 @@
+{
+  "name": "zenay910.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "navbar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenay910/zenay910.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zenay910/zenay910.github.io/issues"
+  },
+  "homepage": "https://github.com/zenay910/zenay910.github.io#readme"
+}
